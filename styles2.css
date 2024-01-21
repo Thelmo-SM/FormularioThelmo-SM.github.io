@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    min-height: 90.9vh;
+    background-color: #e0faf6;
+}
+.form-login {
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 1em 4em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    background-color: aliceblue;
+    padding-left: 3em 9em;
+}
+.container_login {
+    margin-top: 3.5em;
+    display: grid;
+    gap: 2.3em;
+}*/
+.login_h1 {
+    font-size: 35px;
+    color: #005279;
+}
+.login_group {
+    position: relative;
+    --color: #5757577e;
+}
+.login_input {
+    width: 100%;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid var(--color);
+}
+.label_login {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: var(--color);
+    transform: translateY(15px);
+    transition: transform .5s, color .3s;
+}
+.button_login {
+    border-radius: .6em;
+    border: none;
+    font-size: 1em;
+    padding: 17px 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(107, 201, 224);
+}
+#a_button {
+    color: rgb(0, 24, 44);
+}
+#a_here {
+    color: #005279;
+    border-bottom: 2px solid rgb(3, 149, 185);
+    border-top: 2px solid rgb(3, 149, 185);
+    border-radius: 3px;
+    padding: 8px;
+}
+.password_p {
+    color: #000;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 24, 44);
+}
+.new_account a {
+    padding: 17px 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.border_account {
+    border-top: 1px solid #5757577e;;
+    width: 100%;
+}
+.login_input:focus + .label_login, 
+.login_input:not(:placeholder-shown) + .label_login {
+    transform: translateY(-12px) scale(.9);
+    transform-origin: left top;
+}
+
+.welcome {
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 5em 6em;
+    font-size: 1.40em;
+    float: left;
+    color: rgb(0, 24, 44);
+    text-align: center;
+}
+#welcome_h1 {
+    color: #005279;
+}
+.login_h1 {
+    font-size: 2em;
+    color: #005279;
+    font-weight: bold;
+}

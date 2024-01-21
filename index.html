@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="" class="formulario">
+    <h1>Sign up</h1>
+    <p>Create Account</p>
+  <div class="form_container">
+    <div class="form_group">
+      <input type="text" name="name" id="name" placeholder=" " class="form_input" required>
+      <label for="name" id="label-name" class="form_label">Name:</label>
+      <span class="form_line"></span>
+    </div>
+      <div class="form_group">
+        <input type="text" name="last_name" id="last_name" placeholder=" " class="form_input" required>
+        <label for="last_name" id="label-last_name" class="form_label">Last Name:</label>
+        <span class="form_line"></span>
+      </div>
+    <div class="form_group"> 
+      <input type="tel" name="number" id="number" pattern="[0-9]{10}" placeholder=" " class="form_input" required>
+      <label for="number" id="label-number" class="form_label">Phone:</label>
+      <span class="form_line"></span>
+    </div>
+      <div class="form_group">
+        <input type="email" name="email" id="email" placeholder=" " class="form_input" required>
+        <label for="email" id="label-email" class="form_label">Email:</label>
+        <span class="form_line"></span>
+      </div>
+      <div class="form_group">
+        <input type="password" name="password" id="password" placeholder=" " class="form_input" required>
+        <label for="password" id="label-password" class="form_label">Password:</label>
+        <span class="form_line"></span>
+      </div>
+        <input type="submit" name="submit" id="submit" class="form_submit">
+    </div>
+    <div class="form_login">
+      <p class="login_p">¿Do you already have an account? <a href="/index2.html" id="a_get">Get in</a></p>
+      </div>
+  </form>
+</body>
+</html>
